@@ -1,0 +1,232 @@
+@import url(https://allfont.ru/allfont.css?fonts=montserrat);
+
+html,
+body {
+  font-family: "Montserrat", arial;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  height: 69.9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchDiv {
+  width: 378.17px;
+  height: 40px;
+  position: relative;
+  border-radius: 25px;
+}
+.searchInput {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  width: 100%;
+  padding: 10px 20.99px;
+  height: 100%;
+  border-radius: 25px;
+  background: #e8eaeb;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #bababa;
+}
+.searchInput:active,
+.searchInput:focus {
+  color: #000000;
+}
+.searchButton {
+  position: absolute;
+  top: 4px;
+  right: 4.58px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(./img/loop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0008c1;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+.main {
+  padding: 0 50px;
+  background-color: lightgrey;
+  height: 125vh;
+}
+.mainTop1 {
+  padding-top: 40.26px;
+  display: grid;
+  grid-template-columns: 50px repeat(7, 136px) 46px;
+  column-gap: 20px;
+  align-items: center;
+}
+.gender {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.female {
+  margin-bottom: 16px;
+}
+.female,
+.male {
+  width: 50px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.female:hover,
+.male:hover {
+  cursor: pointer;
+}
+.items {
+  height: 76px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border: 2px solid #ffffff;
+}
+.items:hover {
+  cursor: pointer;
+  border: 2px solid #939393;
+  border-radius: 5px;
+}
+.items:active {
+  border: 2px solid #939393;
+}
+.items__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2e2e2e;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+.continue {
+  height: 76px;
+  border: 2px solid #ffffff;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.continue:hover {
+  cursor: pointer;
+  border: 2px solid #939393;
+  border-radius: 5px;
+}
+.continue:active {
+  border: 2px solid #939393;
+}
+.mainTop2 {
+  padding-top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.items-2 {
+  width: 150px;
+  text-align: center;
+}
+.items-2:hover {
+  cursor: pointer;
+}
+.items-2 span {
+  display: block;
+  font-family: "Montserrat", arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #4f4f4f;
+  padding-bottom: 6px;
+}
+.line {
+  height: 4px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.items-2.active .line,
+.items-2:hover .line {
+  background: #0008c1;
+  border-radius: 25px;
+}
+.continue-2 {
+  width: 43.77px;
+  height: 36px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+.continue-2:hover {
+  cursor: pointer;
+  border: 2px solid #939393;
+  border-radius: 5px;
+}
+.continue-2:active {
+  border: 2px solid #939393;
+}
+.content {
+  padding-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 184px);
+  grid-template-rows: repeat(auto-fill, 160px);
+  gap: 20px;
+}
+.item {
+  background: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.item-content {
+  padding-top: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  font-family: "Montserrat", arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #2e2e2e;
+}
+.price {
+  font-family: "Montserrat", arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+
+  color: #1f1617;
+}
